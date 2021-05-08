@@ -7,7 +7,7 @@
     * forecast the temperature for 3 days 
 
 ## Api used:
-* "http://api.weatherapi.com/v1/forecast.json?key=95af9d5033a94650a2a164141210705&q=cairo&days=3"
+* "https://api.weatherapi.com/v1/forecast.json?key=95af9d5033a94650a2a164141210705&q=cairo&days=3"
 * parameters of Api:
   * (key=<yourKey>), my Key = 95af9d5033a94650a2a164141210705
   * (q=<yourLocation>), yourLocation like: london, paris,....
