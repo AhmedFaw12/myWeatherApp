@@ -10,7 +10,7 @@ let myData;
 
 
 async function getWeather(loc) {
-    let resp = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=95af9d5033a94650a2a164141210705&q=${loc}&days=3`);
+    let resp = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=95af9d5033a94650a2a164141210705&q=${loc}&days=3`);
     myData = await resp.json();
 
     DisplayCurrentWeather(myData);
