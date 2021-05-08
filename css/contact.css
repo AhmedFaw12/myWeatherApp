@@ -1,0 +1,56 @@
+#contact {
+    min-height: 300px;
+}
+
+#contact .links a{
+    color :#bfc1c8;
+    text-decoration: none;
+}
+
+#contact .links span:hover a{
+    text-decoration: underline;
+}
+
+#contact input, textarea{
+    border: 2px solid #393c48;
+}
+
+textarea.form-control {
+    border: 2px solid #393c48;
+    background-color: #1e202b;
+    color: white;
+    border-radius: 20px;
+    height: 180px;
+}
+
+textarea.form-control:focus{
+    background-color: #1e202b;
+    color: white;
+    border-color: #009ad8;
+}
+
+#contact input:hover , textarea:hover{
+    border-color: #009ad8;
+}
+
+#contact p.contact-info{
+    font-size: 14px;
+}
+
+.contact-icons{
+    font-size: 14px;
+}
+.contact-icons a{
+    text-decoration: none;
+    color: #bfc1c8;
+}
+
+.contact-icons i{
+    color: #009ad8;
+}
+
+
+.btn{
+    background-color: #009ad8;
+    color: white;
+}

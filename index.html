@@ -1,0 +1,173 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>My Index Page</title>
+  
+</head>
+
+<body>
+  <!-- navBar section -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-deepDark">
+    <div class="container py-4">
+      <a class="navbar-brand pt-3" href="#index.html">
+        <img class="float-left mr-3" src="images/logo.png" alt="Weather Logo">
+        <div class="float-right">
+          <h1 class="mb-1">Weather</h1>
+          <p>tagline goes here</p>
+        </div>
+      </a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 text-center">
+          <li class="nav-item active ">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="pageNotFound.html">News</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="pageNotFound.html">Live cameras</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="pageNotFound.html">Photos</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end of navBar section -->
+
+  <!-- siteMainContent section -->
+  <section id="siteMainContent" class="">
+    <div class="siteBackground w-100">
+      <div class="container">
+        <div class="position-relative">
+          <input class="inputBox form-control rounded-pill py-4" type="text" placeholder="Find your location... "
+          autocomplete="off" id="search">
+          <button class="btn px-5 rounded-pill  " id="find">Find</button>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="siteForcastTable bg-deepDark  w-100 ">
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-lg-4 position-relative forcast today">
+            <div class="forcastHeader overflow-hidden">
+              <p class="float-left">Friday</p>
+              <p class="float-right">7May</p>
+            </div>
+
+            <div class="forcastContent  py-4 ">
+              <p class="location">Cairo</p>
+              <h2>
+                <span class="degree">29<sup>o</sup>C</span>
+                <span><img class="degreeImg" src="images/112.png" alt=""></span>
+              </h2>
+
+              <p class="weatherCondition">sunny</p>
+              <div>
+                <span class="mr-3"><img src="images/icon-umberella.png" alt=""> 20%</span>
+                <span class="mr-3"><img src="images/icon-wind.png" alt=""> 20%</span>
+                <span class="mr-3"><img src="images/icon-compass.png" alt=""> 20%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 position-relative forcast text-center nextDays ">
+            <div class="forcastHeader">
+              <p>Saturday</p>
+
+            </div>
+
+            <div class="forcastContent  py-4 ">
+              <img class="degreeImg" src="images/116.png" alt="">
+              <h2 class="mt-3 mb-0">
+                <span class="degree">43<sup>o</sup>C</span>
+              </h2>
+              <p class="pb-3">26.6<sup>o</sup></p>
+              <p class="weatherCondition">Partly cloudy</p>
+
+            </div>
+          </div>
+          <div class="col-lg-4 position-relative forcast text-center nextDays">
+            <div class="forcastHeader">
+              <p>Saturday</p>
+
+            </div>
+
+            <div class="forcastContent  py-4 ">
+              <img class="degreeImg" src="images/116.png" alt="">
+              <h2 class="mt-3 mb-0">
+                <span class="degree">43<sup>o</sup>C</span>
+              </h2>
+              <p class="pb-3">26.6<sup>o</sup></p>
+              <p class="weatherCondition">Partly cloudy</p>
+
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- end of siteMainContent section -->
+
+
+  <!-- footer Section -->
+  <footer class="py-5 bg-moreDark">
+   <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div>
+          <form class="position-relative">
+            <input class="inputBox form-control rounded-pill py-4" type="text" placeholder="Enter your email to subscribe...">
+            <button class="btn  px-5 rounded-pill ">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-3 offset-md-1">
+        <div class="social-icons d-flex justify-content-md-center">
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fab fa-facebook-f "></i>
+          </a>
+          
+          <a href="https://www.twitter.com/" target="_blank">
+            <i class="fab fa-twitter "></i>
+          </a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fab fa-google-plus-g "></i>
+          </a>
+          <a href="https://www.pinterest.com/" target="_blank">
+            <i class="fab fa-pinterest-p"></i>
+          </a>
+        </div>
+        
+      </div>
+    </div>
+
+    <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+   </div>
+  </footer>
+  <!-- end of footer section -->
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/mine.js"></script>
+</body>
+
+</html>

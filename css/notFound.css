@@ -1,0 +1,29 @@
+h2{
+    font-size: 22px;
+}
+
+a,span{
+   color: #007067;
+   font-weight: bold;
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+a:hover, span:hover
+{   
+    text-decoration: underline;
+    text-decoration-color: #f4bb00;
+    color: #007067;
+}
+
+i{
+    color: #007067;
+}
+
+p{
+    color: #0e1e25;
+}
+
+.card{
+    max-width: 360px;
+}
